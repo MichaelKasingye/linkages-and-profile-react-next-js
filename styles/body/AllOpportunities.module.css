@@ -1,0 +1,31 @@
+.flexitem {
+  margin: 20px 65px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexitem > div {
+  flex-basis: 33.333333%;
+}
+
+@media screen and (max-width: 600px) {
+  .flexitem {
+    flex-direction: column;
+    margin: 10px 15px;
+  }
+  .flexitem > div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .flexitem {
+    margin: 10px;
+  }
+  .flexitem > div {
+    flex-basis: 50%;
+    margin: 5px 3px;
+  }
+}

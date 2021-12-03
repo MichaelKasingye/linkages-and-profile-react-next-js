@@ -1,0 +1,15 @@
+
+.left{
+    background-color: #D9E0E8;
+    /* border: 1px solid #D9E0E8; */
+
+    width: 330px;
+    /* height: 100%vh; */
+    /* top: -1; */
+   
+}
+.left_box{
+    margin-left: 0.7rem;
+    /* position: fixed; */
+
+}
